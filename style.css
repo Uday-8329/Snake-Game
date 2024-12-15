@@ -1,0 +1,25 @@
+/* Style the game container */
+#game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full viewport height */
+    background-color: #111;
+    color: white;
+}
+
+/* Canvas styling */
+#gameCanvas {
+    border: 2px solid white;
+    background-color: #000;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Score display */
+#score {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+}
